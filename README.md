@@ -1,6 +1,6 @@
-**텐서플로우와 머신러닝으로 시작하는 자연어처리 첫번째 책은 아래 링크를 참고해주시기 바랍니다.** 
+**텐서플로우와 머신러닝으로 시작하는 자연어처리 공부 코드 모음** 
 
-**첫번째 책 링크: https://github.com/NLP-kr/tensorflow-ml-nlp**
+
 
 ***공지: GPT2 모델 다운로드 링크가 변경될 예정입니다. 모델 다운로드는 다음과 같이 받아주시기 바랍니다.**
 ```
@@ -17,16 +17,14 @@ wget https://github.com/NLP-kr/tensorflow-ml-nlp-tf2/releases/download/v1.0/gpt_
 
 ## 소개 (Introduction)
 
-책에 수록된 자연어 처리 예제들을 모아놓은 저장소입니다.
-
-본 저장소는 텐서플로우와 머신러닝으로 시작하는 자연어처리 책과 같이 활용하여 공부하시면 더욱 도움이 되실겁니다.
+책에 수록된 자연어 처리 예제들에 주석을 달아 공부용으로 게재
 
 
 ## 설치방법 (Environments)
 
-해당 자연어처리 예제에 대한 다양한 개발 환경 지원을 위해 도커(Docker) 가이드를 추가하였습니다.
+해당 자연어처리 예제에 대한 다양한 개발 환경 지원을 위한 도커(Docker) 가이드 추가
 
-향후 예제에 대한 실습 패키지 업데이트 변화에 대응하기 위해 도커 사용을 권장 합니다.
+향후 예제에 대한 실습 패키지 업데이트 변화에 대응하기 위해 도커 사용을 권장
 
 ## Jupyter Docker 실행 (권장)
 
@@ -74,35 +72,32 @@ conda install python=3.6
 
 ## 목차 (Table of Contents)
 
-**준비 단계** - 자연어 처리에 대한 배경과 개발에 대한 준비를 위한 챕터입니다.
+**준비 단계** - 자연어 처리에 대한 배경과 개발에 대한 준비
 
-1. [들어가며](./1.Intro)
-2. [자연어 처리 개발 준비](./2.NLP_PREP)
-3. [자연어 처리 개요](./3.NLP_INTRO)
 
-**자연어 처리 기본** - 자연어 처리에 기본적인 모델에 대한 연습 챕터입니다.
+1. [자연어 처리 개발 준비](./1.NLP_PREP)
+2. [자연어 처리 개요](./2.NLP_INTRO)
 
-4. [텍스트 분류](./4.TEXT_CLASSIFICATION)
-5. [텍스트 유사도](./5.TEXT_SIM)
+**자연어 처리 기본** - 자연어 처리 기본적인 모델 연습
 
-**자연어 처리 심화** - 챗봇 모델을 통해 보다 심화된 자연어 처리에 대한 연습 챕터입니다.
+3. [텍스트 분류](./3.TEXT_CLASSIFICATION)
+4. [텍스트 유사도](./4.TEXT_SIM)
 
-6. [챗봇 만들기](./6.CHATBOT)
-7. [미세 조정 학습](./7.PRETRAIN_METHOD)
+**자연어 처리 심화** - 챗봇 모델을 통한 심화된 자연어 처리
+
+5. [챗봇 만들기](./5.CHATBOT)
+6. [미세 조정 학습](./6.PRETRAIN_METHOD)
 
 ## Colab 실습
 
-Colab 실습은 7장에 한하여 별도 저장소를 공개하였습니다. 
+Colab 실습은 6장에 한하여 별도 저장소를 공개하였습니다. 
 
 - [저장소 링크](https://github.com/NLP-kr/tensorflow-ml-nlp-tf2-colab)
 
-## 문의사항 (Inquiries)
-[Pull Request](https://github.com/NLP-kr/tensorflow-ml-nlp-tf2/pulls)는 언제든 환영입니다.
-문제나 버그, 혹은 궁금한 사항이 있으면 [이슈](https://github.com/NLP-kr/tensorflow-ml-nlp-tf2/issues)에 글을 남겨주세요.
 
-**이슈를 확인하기 전에 Wiki에 도큐먼트 먼저 보시고 이슈에 글을 남겨주세요!
 
-## 저자 (Authors)
+
+## 저작권
 ChangWookJun / @changwookjun (changwookjun@gmail.com)  
 Taekyoon  / @taekyoon (tgchoi03@gmail.com)  
 JungHyun Cho  / @JungHyunCho (reniew2@gmail.com)  
